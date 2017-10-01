@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "957208499460",
+    "firebase_url": "https://admission-helper-f7c03.firebaseio.com",
+    "project_id": "admission-helper-f7c03",
+    "storage_bucket": "admission-helper-f7c03.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:957208499460:android:4a45e57e87c240b3",
+        "android_client_info": {
+          "package_name": "com.plutoine.admissionhelper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "957208499460-mp0a0ksp2rtkp1hsiq49fdgjdutp1v59.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.plutoine.admissionhelper",
+            "certificate_hash": "5560ed3119789b9d4f99a7345423de59533386a2"
+          }
+        },
+        {
+          "client_id": "957208499460-ro528elqadfo8d01eg1fb7le94pjpgr3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDP8Gb3yuQgjdJNpu3EhkLbGwXVHwQpxPQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "957208499460-ro528elqadfo8d01eg1fb7le94pjpgr3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    android:layout_height="match_parent"
+    tools:context="com.plutoine.admissionhelper.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="@color/front_name"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="101dp"
+            app:srcCompat="@drawable/goal"
+            tools:ignore="ContentDescription" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView">
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/btnSignUp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:onClick="signUpPressed"
+            android:text="Sign Up"
+            android:textColor="@android:color/white"
+            app:buttonColor="@color/btnSignUp"
+            app:cornerRadius="3dp"
+            app:shadowColor="@android:color/darker_gray"
+            app:shadowEnabled="true"
+            app:shadowHeight="1.5dp"
+            tools:ignore="HardcodedText" />
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/btnSignIn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:onClick="logInPressed"
+            android:text="Log In"
+            android:textColor="@color/btnSignUp"
+            app:buttonColor="@color/btnSignIn"
+            app:cornerRadius="3dp"
+            app:shadowColor="@android:color/darker_gray"
+            app:shadowEnabled="true"
+            app:shadowHeight="1.5dp"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+</RelativeLayout>
